@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>logowanie przy uzyciu blednych danych logowania na stronie http://way2automation.com/way2auto_jquery/</description>
+   <name>logowanie bledne</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a31747aa-1c41-43df-b71e-06633d403e56</testCaseGuid>
+</TestCaseEntity>
