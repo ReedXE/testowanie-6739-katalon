@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>logowanie z datafiles</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>ec86a24b-1b44-4909-8b62-655ae23167c7</testSuiteGuid>
+   <testCaseLink>
+      <guid>05153348-b390-41c1-8ca4-6070f24890e0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/logowanie na stronie/logowanie i rejestracja</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0aa17d24-b5c2-41ba-8dbe-84035273f2d6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/dane testowe</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>0aa17d24-b5c2-41ba-8dbe-84035273f2d6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Imie</value>
+         <variableId>3ae85d41-a8cd-490f-b413-35aaa007817b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0aa17d24-b5c2-41ba-8dbe-84035273f2d6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Nazwisko</value>
+         <variableId>e2ea24a8-94d9-45b1-9377-34ea1d898ac0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0aa17d24-b5c2-41ba-8dbe-84035273f2d6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Numer</value>
+         <variableId>c316d776-1eb1-422a-817e-111b952796d6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0aa17d24-b5c2-41ba-8dbe-84035273f2d6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Login</value>
+         <variableId>c9ba0bb3-85e2-4fa0-ac20-35ddd5b160c2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0aa17d24-b5c2-41ba-8dbe-84035273f2d6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Haslo</value>
+         <variableId>4ac8dea2-f030-4c17-b60c-db1de26f53f7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0aa17d24-b5c2-41ba-8dbe-84035273f2d6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Mail</value>
+         <variableId>375a1bae-ea1c-4d6b-ac58-842c5ccd0469</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

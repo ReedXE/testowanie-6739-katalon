@@ -18,13 +18,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://way2automation.com/way2auto_jquery/')
+WebUI.navigateToUrl(GlobalVariable.urlRegister)
 
 WebUI.click(findTestObject('Object Repository/Page_Welcome to the Test Site/a_Signin'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Welcome to the Test Site/input_Username_username'), 'testWSIZ')
+WebUI.setText(findTestObject('Object Repository/Page_Welcome to the Test Site/input_Username_username'), GlobalVariable.Username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Welcome to the Test Site/input_Password_password'), 'P9ET2sDE0SE=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Welcome to the Test Site/input_Password_password'), GlobalVariable.Password)
 
 WebUI.click(findTestObject('Object Repository/Page_Welcome to the Test Site/input_Signup_button'))
 

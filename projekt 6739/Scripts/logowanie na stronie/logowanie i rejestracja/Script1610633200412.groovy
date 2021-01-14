@@ -18,23 +18,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://way2automation.com/way2auto_jquery/')
+WebUI.navigateToUrl(GlobalVariable.urlRegister)
 
 WebUI.click(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome to the Test Site/a_Signin'))
 
 WebUI.setText(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome to the Test Site/input_Username_username'), 
-    'testWSIZ')
+    GlobalVariable.Username)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome to the Test Site/input_Password_password'), 
-    'P9ET2sDE0SE=')
+    GlobalVariable.Password)
 
 WebUI.click(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome to the Test Site/input_Signup_button'))
 
 WebUI.click(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome to the Test Site/figure'))
 
-WebUI.setText(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/input_First Name_name'), 'test')
+WebUI.setText(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/input_First Name_name'), imie)
 
-WebUI.setText(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/input'), 'test')
+WebUI.setText(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/input'), nazwisko)
 
 WebUI.click(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/label_Married'))
 
@@ -42,27 +42,18 @@ WebUI.click(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome
 
 WebUI.click(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/label_Dance'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/select_Month                                    1'), 
-    '1', true)
+WebUI.setText(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/input_Phone Number_phone'), numer)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/select_Day                                    1'), 
-    '1', true)
+WebUI.setText(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/input_Username_username'), login)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/select_Year                                _cd3c5d'), 
-    '2014', true)
-
-WebUI.setText(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/input_Phone Number_phone'), '123123123')
-
-WebUI.setText(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/input_Username_username'), 'test')
-
-WebUI.setText(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/input_E-mail_email'), 'test@test.com')
+WebUI.setText(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/input_E-mail_email'), email)
 
 WebUI.setText(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/textarea'), 'test')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/input_Password_password'), 'P9ET2sDE0SE=')
+WebUI.setEncryptedText(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/input_Password_password'), haslo)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/input_Confirm Password_c_password'), 
-    'P9ET2sDE0SE=')
+    haslo)
 
 WebUI.click(findTestObject('Object Repository/logowanieirejestracja/Page_Welcome/input_1'))
 
